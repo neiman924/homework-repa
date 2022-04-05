@@ -4,15 +4,22 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Code Refactor Project</title>
 </head>
 
 <body>
-    <header>
+    <header id="Home">
         <div class="header">
             <h1>Hori<span class="seo">seo</span>n</h1>
+
             <div>
                 <ul>
+                    <li>
+                        <a href="#Home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#benefits">Benefits</a>
+                    </li>
                     <li>
                         <a href="#search-engine-optimization">Search Engine Optimization</a>
                     </li>
@@ -22,17 +29,20 @@
                     <li>
                         <a href="#social-media-marketing">Social Media Marketing</a>
                     </li>
+                    <li>
+                        <a href="#Contact">Contact us</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </header>
 
-    <div class="hero"></div>
-    <div class="content">
-        <div class="search-engine-optimization">
+    <section class="main-pic"></section>
+    <section class="content">
+        <div id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
-            <p>
+            <p> 
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </div>
@@ -50,8 +60,8 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>         
         </div>
-    </div>
-    <div class="benefits">
+    </section>
+    <aside id="benefits" class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
@@ -74,14 +84,18 @@
             </p>
 
         </div>
-    </div>
-    <footer>
+    </aside>
 
-        <h2>Made with ❤️️ by Horiseon</h2>
+
+
+    <footer id="Contact">
+        <h2>Made with ❤️️ by <a href="mailto:neiman924@gmail.com">Horiseon</a></h2>
         <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
+            &copy; 2022 Horiseon Social Solution Services, Inc.
         </p>
+        <p><a href="mailto:neiman924@gmail.com">Contact us</a></p>
     </footer>
+
 </body>
 
 </html>
